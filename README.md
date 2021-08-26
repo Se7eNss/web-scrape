@@ -15,3 +15,5 @@ To do this challenge, you need a basic understanding Web scraping, Backend and F
 You can find backend side in server folder. I used Node.js   ,Express.js,MongoDb,Moongoose and Cheerio.js.
 
 I created a script for web scrape in packege.json.When we call npm run seeder. It scrape products from etsy.com and it write product.json which located in data folder. After moongose get all products from product.json and insert mongodb.You can reach detail in seeder.js and scrape.js which located in utils.I used cheerio.js for scrape.
+
+I use Docker for initializing the projects.
